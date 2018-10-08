@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Mediebibliotek</name>
+   <name>a_-- Tilfj Produkt (1)</name>
    <tag></tag>
-   <elementGuidId>dcd6b0bd-d74b-4c59-b631-66e27ea5c886</elementGuidId>
+   <elementGuidId>e0e6099c-19aa-43eb-b044-9b6008855b89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;side-menu&quot;)/li[@class=&quot;hasmenu&quot;]/ul[@class=&quot;nav submenu&quot;]/li[2]/a[@class=&quot;wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--add-product&quot;][count(. | //a[@href = 'https://www.staging2.weensu.dk/wcmp/add-product/' and (text() = '-- Tilføj Produkt' or . = '-- Tilføj Produkt')]) = count(//a[@href = 'https://www.staging2.weensu.dk/wcmp/add-product/' and (text() = '-- Tilføj Produkt' or . = '-- Tilføj Produkt')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,87 +24,82 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
+      <value>https://www.staging2.weensu.dk/wcmp/add-product/</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>media-menu-item</value>
+      <value>wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--add-product</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mediebibliotek</value>
+      <value>-- Tilføj Produkt</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__wp-uploader-id-0&quot;)/div[@class=&quot;media-frame-router&quot;]/div[@class=&quot;media-router&quot;]/a[@class=&quot;media-menu-item&quot;]</value>
+      <value>id(&quot;side-menu&quot;)/li[@class=&quot;hasmenu&quot;]/ul[@class=&quot;nav submenu&quot;]/li[2]/a[@class=&quot;wcmp-venrod-dashboard-nav-link wcmp-venrod-dashboard-nav-link--add-product&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='__wp-uploader-id-0']/div[3]/div/a[2]</value>
+      <value>//ul[@id='side-menu']/li[3]/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>//a[contains(text(),'Mediebibliotek')]</value>
+      <value>//a[contains(text(),'-- Tilføj Produkt')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vælg billedfil'])[2]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Alle Produkter'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Luk mediepanel'])[1]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produkt Behandling'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Træk filer hertil for at uploade'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Lagerbeholdning'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vælg filer'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rabatkoder'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>(//a[contains(@href, '#')])[14]</value>
+      <value>(//a[contains(@href, 'https://www.staging2.weensu.dk/wcmp/add-product/')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div/a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Varebillede'])[2]/following::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>(//a[contains(@href, '#')])[61]</value>
+      <value>//li[3]/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

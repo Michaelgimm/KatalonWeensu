@@ -13,43 +13,37 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Log in on staging1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./i_Produkt Behandling_wcmp-font'))
-
-WebUI.waitForElementClickable(findTestObject(null), 0)
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./span_Produkt Behandling'))
 
 WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./a_-- Tilfj Produkt'))
 
-WebUI.setText(findTestObject('Page_Forhandler Dashboard - Weensu./input_Varenavn_post_title'), 'Automatisk test produkt')
+WebUI.setText(findTestObject('Page_Forhandler Dashboard - Weensu./input_Titel_title'), 'Automatisk test produkt 1')
 
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./html_.mce-content-body div.mce'))
+WebUI.setText(findTestObject('Page_Forhandler Dashboard - Weensu./input_Pris (DKK)_regular_price'), '100')
 
-WebUI.setText(findTestObject('Page_Forhandler Dashboard - Weensu./body_Tekst i tekstfeltet. Her '), '<p style="">Tekst i tekstfeltet. Her skriver jeg en lang tekst omkring mit testprodukt.</p><div id="katalon" style="top: 160px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>')
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./button_Tekst'))
 
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./p_Click to upload Image'))
+WebUI.setText(findTestObject('Page_Forhandler Dashboard - Weensu./textarea_Afsnit_excerpt'), 'Her skriver jeg en kort tekst.')
+
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./button_Visuel'))
+
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./h3_Produkt Billede og Galleri'))
+
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./input_Produkt Billede (Primr)_'))
 
 WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./a_Mediebibliotek'))
 
 WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./div_Fravlg_thumbnail'))
 
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./button_Indst varebillede'))
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./button_Vlg billedfil'))
 
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./span_Beholdning'))
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./h3_Lagerbeholdning'))
 
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./span_Generel'))
+WebUI.waitForElementClickable(findTestObject('Page_Forhandler Dashboard - Weensu./h3_Lagerbeholdning'), 5)
 
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./div_Tilbudspris (DKK)         '))
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./input_Lagerstyring_manage_stoc'))
 
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./html_.mce-content-body div.mce'))
+WebUI.setText(findTestObject('Page_Forhandler Dashboard - Weensu./input_Antal p lager_stock_qty'), '10')
 
-WebUI.setText(findTestObject('Page_Forhandler Dashboard - Weensu./body_gfhdghdfhfgdhgfdhgfdh'), '<p style="">gfhdghdfhfgdhgfdhgfdh</p><div id="katalon" style="top: 160px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>')
-
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./input_Sson_tax_inputproduct_ca'))
-
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./input_Hasle_submit-data'))
-
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./i_Weensu.dk_wcmp-font ico-down'))
-
-WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./span_Log ud'))
+WebUI.click(findTestObject('Page_Forhandler Dashboard - Weensu./input_Meta beskrivelse_submit-'))
 

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create and delete a product from vendor" time="99" tests="3" failures="1" errors="0">
+   <testsuite name="Create and delete a product from vendor" tests="3" failures="1" errors="0" time="99" timestamp="2018-10-08 17:28:38" hostname="michaelsorensen - 172.20.10.2" id="Test Suites/Create and delete a product from vendor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/michaelsorensen/git/KatalonWeensu/Reports/Create and delete a product from vendor/20181008_172835"/>
+         <property name="logFiles" value="/Users/michaelsorensen/git/KatalonWeensu/Reports/Create and delete a product from vendor/20181008_172835/execution0.log"/>
+         <property name="attachments" value="/Users/michaelsorensen/git/KatalonWeensu/Reports/Create and delete a product from vendor/20181008_172835/1539012606427.png"/>
+         <property name="hostName" value="michaelsorensen - 172.20.10.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="d74a8d1e3457b345860c8df33c173741"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login staging2" classname="Test Cases/Login staging2" status="PASSED">
+         <system-out><![CDATA[2018-10-08 17:28:39 - [TEST_CASE][PASSED] - Test Cases/Login staging2: Test Cases/Login staging2
+
+2018-10-08 17:28:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-08 17:28:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-08 17:28:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-08 17:28:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-08 17:28:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.staging2.weensu.dk/' successfully
+
+2018-10-08 17:29:00 - [MESSAGE][PASSED] - Navigate to 'https://www.staging2.weensu.dk/' successfully
+
+2018-10-08 17:29:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.staging2.weensu.dk/my-account/' successfully
+
+2018-10-08 17:29:04 - [MESSAGE][PASSED] - Navigate to 'https://www.staging2.weensu.dk/my-account/' successfully
+
+2018-10-08 17:29:04 - [TEST_STEP][PASSED] - setText: Text 'forhandler1' is set on object 'Object Repository/Page_Min konto - Weensu.dk/input__username'
+
+2018-10-08 17:29:04 - [MESSAGE][PASSED] - Text 'forhandler1' is set on object 'Object Repository/Page_Min konto - Weensu.dk/input__username'
+
+2018-10-08 17:29:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Min konto - Weensu.dk/input__password'
+
+2018-10-08 17:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Min konto - Weensu.dk/input__password'
+
+2018-10-08 17:29:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Min konto - Weensu.dk/button_Log ind' is clicked on
+
+2018-10-08 17:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Min konto - Weensu.dk/button_Log ind' is clicked on
+
+2018-10-08 17:29:11 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-10-08 17:29:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opret simpelt produkt" classname="Test Cases/Opret simpelt produkt" status="PASSED">
+         <system-out><![CDATA[2018-10-08 17:29:11 - [TEST_CASE][PASSED] - Test Cases/Opret simpelt produkt: Test Cases/Opret simpelt produkt
+
+2018-10-08 17:29:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./span_Produkt Behandling' is clicked on
+
+2018-10-08 17:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./span_Produkt Behandling' is clicked on
+
+2018-10-08 17:29:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_-- Tilfj Produkt' is clicked on
+
+2018-10-08 17:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_-- Tilfj Produkt' is clicked on
+
+2018-10-08 17:29:20 - [TEST_STEP][PASSED] - setText: Text 'Automatisk test produkt 1' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Titel_title'
+
+2018-10-08 17:29:20 - [MESSAGE][PASSED] - Text 'Automatisk test produkt 1' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Titel_title'
+
+2018-10-08 17:29:20 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Pris (DKK)_regular_price'
+
+2018-10-08 17:29:21 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Pris (DKK)_regular_price'
+
+2018-10-08 17:29:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./button_Tekst' is clicked on
+
+2018-10-08 17:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./button_Tekst' is clicked on
+
+2018-10-08 17:29:21 - [TEST_STEP][PASSED] - setText: Text 'Her skriver jeg en kort tekst.' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./textarea_Afsnit_excerpt'
+
+2018-10-08 17:29:21 - [MESSAGE][PASSED] - Text 'Her skriver jeg en kort tekst.' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./textarea_Afsnit_excerpt'
+
+2018-10-08 17:29:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./button_Visuel' is clicked on
+
+2018-10-08 17:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./button_Visuel' is clicked on
+
+2018-10-08 17:29:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./h3_Produkt Billede og Galleri' is clicked on
+
+2018-10-08 17:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./h3_Produkt Billede og Galleri' is clicked on
+
+2018-10-08 17:29:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Produkt Billede (Primr)_' is clicked on
+
+2018-10-08 17:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Produkt Billede (Primr)_' is clicked on
+
+2018-10-08 17:29:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Mediebibliotek' is clicked on
+
+2018-10-08 17:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Mediebibliotek' is clicked on
+
+2018-10-08 17:29:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./div_Fravlg_thumbnail' is clicked on
+
+2018-10-08 17:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./div_Fravlg_thumbnail' is clicked on
+
+2018-10-08 17:29:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./button_Vlg billedfil' is clicked on
+
+2018-10-08 17:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./button_Vlg billedfil' is clicked on
+
+2018-10-08 17:29:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./h3_Lagerbeholdning' is clicked on
+
+2018-10-08 17:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./h3_Lagerbeholdning' is clicked on
+
+2018-10-08 17:29:24 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Forhandler Dashboard - Weensu./h3_Lagerbeholdning' is clickable
+
+2018-10-08 17:29:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forhandler Dashboard - Weensu./h3_Lagerbeholdning' is clickable
+
+2018-10-08 17:29:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Lagerstyring_manage_stoc' is clicked on
+
+2018-10-08 17:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Lagerstyring_manage_stoc' is clicked on
+
+2018-10-08 17:29:25 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Antal p lager_stock_qty'
+
+2018-10-08 17:29:25 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Antal p lager_stock_qty'
+
+2018-10-08 17:29:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Meta beskrivelse_submit-' is clicked on
+
+2018-10-08 17:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./input_Meta beskrivelse_submit-' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Slet simpelt produkt" classname="Test Cases/Slet simpelt produkt" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' located by 'By.xpath: //a[@href = 'https://www.staging2.weensu.dk/wcmp/products/?product_id=10441&amp;_wpnonce=84609f29ea' and (text() = 'Slet' or . = 'Slet')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539011441092.run(Script1539011441092.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539012515461.run(TempTestSuite1539012515461.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-08 17:29:25 - [TEST_CASE][FAILED] - Test Cases/Slet simpelt produkt: Test Cases/Slet simpelt produkt FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' located by 'By.xpath: //a[@href = 'https://www.staging2.weensu.dk/wcmp/products/?product_id=10441&_wpnonce=84609f29ea' and (text() = 'Slet' or . = 'Slet')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539011441092.run(Script1539011441092.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539012515461.run(TempTestSuite1539012515461.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-08 17:29:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Produkt Behandling' is clicked on
+
+2018-10-08 17:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Produkt Behandling' is clicked on
+
+2018-10-08 17:29:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_-- Alle Produkter' is clicked on
+
+2018-10-08 17:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_-- Alle Produkter' is clicked on
+
+2018-10-08 17:29:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' located by 'By.xpath: //a[@href = 'https://www.staging2.weensu.dk/wcmp/products/?product_id=10441&_wpnonce=84609f29ea' and (text() = 'Slet' or . = 'Slet')]' not found)
+
+2018-10-08 17:30:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' located by 'By.xpath: //a[@href = 'https://www.staging2.weensu.dk/wcmp/products/?product_id=10441&_wpnonce=84609f29ea' and (text() = 'Slet' or . = 'Slet')]' not found)
+[[ATTACHMENT|/Users/michaelsorensen/git/KatalonWeensu/Reports/Create and delete a product from vendor/20181008_172835/1539012606427.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-08 17:29:25 - [TEST_CASE][FAILED] - Test Cases/Slet simpelt produkt: Test Cases/Slet simpelt produkt FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' located by 'By.xpath: //a[@href = 'https://www.staging2.weensu.dk/wcmp/products/?product_id=10441&_wpnonce=84609f29ea' and (text() = 'Slet' or . = 'Slet')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539011441092.run(Script1539011441092.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539012515461.run(TempTestSuite1539012515461.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout staging2" classname="Test Cases/Logout staging2" status="PASSED">
+         <system-out><![CDATA[2018-10-08 17:30:06 - [TEST_CASE][PASSED] - Test Cases/Logout staging2: Test Cases/Logout staging2
+
+2018-10-08 17:30:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./i_Weensu.dk_wcmp-font ico-down' is clicked on
+
+2018-10-08 17:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./i_Weensu.dk_wcmp-font ico-down' is clicked on
+
+2018-10-08 17:30:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./span_Log ud' is clicked on
+
+2018-10-08 17:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forhandler Dashboard - Weensu./span_Log ud' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-08 17:28:38 - [TEST_SUITE][FAILED] - Create and delete a product from vendor: Test Cases/Slet simpelt produkt FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' located by 'By.xpath: //a[@href = 'https://www.staging2.weensu.dk/wcmp/products/?product_id=10441&_wpnonce=84609f29ea' and (text() = 'Slet' or . = 'Slet')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539011441092.run(Script1539011441092.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539012515461.run(TempTestSuite1539012515461.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-08 17:28:38 - [TEST_SUITE][FAILED] - Create and delete a product from vendor: Test Cases/Slet simpelt produkt FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Forhandler Dashboard - Weensu./a_Slet' located by 'By.xpath: //a[@href = 'https://www.staging2.weensu.dk/wcmp/products/?product_id=10441&_wpnonce=84609f29ea' and (text() = 'Slet' or . = 'Slet')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539011441092.run(Script1539011441092.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539012515461.run(TempTestSuite1539012515461.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

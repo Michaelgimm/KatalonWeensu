@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This step logs out vendor from vendor dashboard</description>
+   <name>Logout staging2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b837ad0-ea74-4a5a-aca4-6eb5ad811a01</testCaseGuid>
+</TestCaseEntity>
